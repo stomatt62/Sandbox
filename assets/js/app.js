@@ -12,6 +12,7 @@ const sac = {
 }; //objet
 const disque = document.querySelector(".disque");
 const btnPause = document.getElementById("btnPause");
+const btnListe = document.getElementById("btnListe");
 const paragraphe = document.querySelector(".div1 p");
 
 setTimeout(() => {
