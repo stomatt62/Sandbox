@@ -1,0 +1,63 @@
+body {
+  background-color: blueviolet;
+}
+img {
+  width: 350px;
+}
+.div1 {
+  background-color: blue;
+}
+.div2 {
+  background-color: aliceblue;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+p {
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.vinyle {
+  animation: turn 4s infinite linear;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  /*25%{
+        transform: rotate(90eg) scale(2);
+    }*/
+  50% {
+    transform: rotate(180eg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.johnny {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.disque {
+  position: relative;
+  display: inline-block;
+  animation: turn 4s infinite linear;
+}
