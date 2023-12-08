@@ -27,9 +27,9 @@ ul {
   justify-content: space-around;
 }
 
-.vinyle {
+/*.vinyle {
   animation: turn 4s infinite linear;
-}
+}*/
 
 @keyframes turn {
   0% {
@@ -60,4 +60,7 @@ ul {
   position: relative;
   display: inline-block;
   animation: turn 4s infinite linear;
+}
+.pause {
+  animation-play-state: paused;
 }
